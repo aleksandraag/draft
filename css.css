@@ -1,10 +1,7 @@
-
-
 .products__label {
   font-weight: 400px;
   font-size: 18px;
   text-align: center;
-
 }
 
 .products__headline {
@@ -23,7 +20,6 @@
   margin: 0 auto;
   margin-bottom: 16px;
   border-radius: 24px;
- 
 }
 
 .products__item:not(:last-child) {
@@ -54,7 +50,7 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 161px;
+  padding-top: 161px;
 }
 
 .products__name::after {
@@ -66,24 +62,24 @@
 .products__name--1::before {
   content: url(../images/products-icecream.png);
   position: absolute;
-  transform: translate(-30%, -113%);
+  transform: translate(-28%, -107%);
 }
 
 .products__name--2::before {
   content: url(../images/products-coffee.png);
   position: absolute;
-  
+  transform: translate(-28%, -107%);
 }
 
 .products__name--3::before {
   content: url(../images/products-milkshake.png);
   position: absolute;
-  
+  transform: translate(-25%, -107%);
 }
 
 .products__description {
   text-align: center;
   padding: 0 41px;
-  margin-top: 66px;
+  padding-top: 66px;
   color: white;
 }
