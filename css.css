@@ -35,7 +35,7 @@
 }
 
 .products__name::after {
-  content: url
+  content: url()
   ./images/icons.svg#icon-instagram-2
   position: absolute;
   
