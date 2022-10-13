@@ -1,3 +1,18 @@
+
+
+.products__label {
+  font-weight: 400px;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.products__headline {
+  font-weight: 400;
+  font-size: 34px;
+  text-align: center;
+}
+
 .products__list {
   list-style: none;
 }
@@ -5,7 +20,10 @@
 .products__item {
   width: 280px;
   height: 485px;
+  margin: 0 auto;
   margin-bottom: 16px;
+  border-radius: 24px;
+ 
 }
 
 .products__item:not(:last-child) {
@@ -27,6 +45,11 @@
 }
 
 .products__name {
+  color: white;
+  font-weight: 400;
+  font: 20px;
+  letter-spacing: 4%;
+  text-transform: uppercase;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -35,21 +58,32 @@
 }
 
 .products__name::after {
-  content: url()
-  ./images/icons.svg#icon-instagram-2
+  content: url(../images/dots.png);
   position: absolute;
-  
+  transform: translate(-260%, 200%);
 }
 
 .products__name--1::before {
   content: url(../images/products-icecream.png);
   position: absolute;
-  transform: translate(-35%, -113%);
+  transform: translate(-30%, -113%);
 }
 
+.products__name--2::before {
+  content: url(../images/products-coffee.png);
+  position: absolute;
+  
+}
 
+.products__name--3::before {
+  content: url(../images/products-milkshake.png);
+  position: absolute;
+  
+}
 
 .products__description {
-    text-align: center;
-    padding: 41px;
+  text-align: center;
+  padding: 0 41px;
+  margin-top: 66px;
+  color: white;
 }
